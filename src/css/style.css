@@ -1,0 +1,93 @@
+body{
+  background-image: url('../images/background.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+#navigator{
+  position: fixed;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: rgba(121, 121, 121, 0.404);
+  padding: 15px;
+}
+
+#navigator a{
+  text-decoration: none;
+  color: white;
+}
+
+.title{
+  color: white;
+}
+h1{
+  position: absolute;
+  margin-top: -50px;
+}
+img{
+  width: 250px;
+}
+
+main{
+  position: absolute;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+figcaption{
+  color: white;
+}
+iframe{
+  width: 400px;
+  height: 300px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  width: 25vw;
+  background-color: rgb(221, 221, 221);
+  padding: 50px 25px;
+  position: relative;
+}
+
+form h1 {
+  position: relative;
+  margin: 0px 15%;
+}
+
+main.music{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  color: wheat;
+}
+
+.music .letra{
+  overflow: auto;
+  height: 600px;
+}
+.music .letra::-webkit-scrollbar {
+  width: 10px;
+  background: rgba(53, 53, 53, 0.247);
+  border-radius: 5px;
+}
+.music .letra::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: black;
+}
+
+.music .letra::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+
+
+
+
+
+
